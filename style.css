@@ -1,0 +1,125 @@
+/* Reset e fontes */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #1F1F1F;
+    color: #EEE;
+}
+
+header {
+    background-color: #4B0082;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFF;
+}
+
+main {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.card {
+    flex: 1 1 220px;
+    background-color: #2A2A2A;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.card h3 {
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.form-section, .tabela-section, .graficos-section {
+    background-color: #2A2A2A;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+form input, form select, form button {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+form input, form select {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    background-color: #4B0082;
+    color: #FFF;
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #6A0DAD;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4B0082;
+    color: #FFF;
+}
+
+table td button {
+    background-color: #FF4D4D;
+    color: #FFF;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table td button:hover {
+    background-color: #FF1A1A;
+}
+
+canvas {
+    background-color: #1F1F1F;
+    margin: 20px auto;
+    display: block;
+}
